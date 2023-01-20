@@ -249,7 +249,13 @@ async def _(event):
                     await fifthon(functions.channels.UpdateUsernameRequest(
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
-    تنح صدتلك يوزر (@{username}) !
+    تع صدتلك يوزر
+⎱UserName: ❲ @{username} ❳
+⎱ClickS: ❲ {trys} ❳
+⎱Save: ❲ Channel ❳
+— — — — — — — — —
+Source channel  - @ww_8ww
+Source Dev - @w_3_2
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -306,7 +312,13 @@ async def _(event):
                         await fifthon(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-    تنح صدتلك يوزر (@{username}) !
+    تع صدتلك يوزر
+⎱UserName: ❲ @{username} ❳
+⎱ClickS: ❲ {trys} ❳
+⎱Save: ❲ Channel ❳
+— — — — — — — — —
+Source channel  - @ww_8ww
+Source Dev - @w_3_2
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -337,7 +349,13 @@ async def _(event):
                 await fifthon(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-    تنح صدتلك يوزر (@{username}) !
+    تع صدتلك يوزر
+⎱UserName: ❲ @{username} ❳
+⎱ClickS: ❲ {trys} ❳
+⎱Save: ❲ Channel ❳
+— — — — — — — — —
+Source channel  - @ww_8ww
+Source Dev - @w_3_2
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")

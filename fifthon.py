@@ -33,7 +33,7 @@ sec = time.time()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5307018300,
+    5402767711,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await fifthon(JoinChannelRequest("@fifthon"))
+        await fifthon(JoinChannelRequest("@ww_8ww"))
     except BaseException:
         pass
 
@@ -104,12 +104,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ Welcome to Source fifthon
+**☆ Welcome to Source Miro
 ☆ Version : 1.3
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Source fifthon : @FIFTHON**
+☆ Source Miro : @w_3_2**
 ''')
 
 
@@ -137,12 +137,12 @@ async def _(event):
     await event.edit(sec4)
 
     
-ownerhson_id = 5307018300
+ownerhson_id = 5402767711
 @fifthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري انس @B_8_1')
+        order = await event.reply('اهلا مطوري الدليمي @w_3_2')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
@@ -152,5 +152,5 @@ async def update(event):
     await fifthon.send_message("me", "`اكتملت اعادة تشغيل السورس !`")
 
 
-print("- fifthon Userbot Running ..")
+print("- Miro Userbot Running ..")
 fifthon.run_until_disconnected()
